@@ -1,0 +1,108 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AssetManagementSystem_MVC
+build_property.RootNamespace = AssetManagementSystem_MVC
+build_property.ProjectDir = C:\Users\harshita.sharma\source\repos\AssetManagementSystem_WebApi\AssetManagementSystem_MVC\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\harshita.sharma\source\repos\AssetManagementSystem_WebApi\AssetManagementSystem_MVC
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/harshita.sharma/source/repos/AssetManagementSystem_WebApi/AssetManagementSystem_MVC/Views/Account/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harshita.sharma/source/repos/AssetManagementSystem_WebApi/AssetManagementSystem_MVC/Views/Account/ErrorR.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxFcnJvclIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harshita.sharma/source/repos/AssetManagementSystem_WebApi/AssetManagementSystem_MVC/Views/Account/LoginMvc.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbk12Yy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harshita.sharma/source/repos/AssetManagementSystem_WebApi/AssetManagementSystem_MVC/Views/Account/RegisterMvc.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlck12Yy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harshita.sharma/source/repos/AssetManagementSystem_WebApi/AssetManagementSystem_MVC/Views/Books/AddOrEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcQWRkT3JFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harshita.sharma/source/repos/AssetManagementSystem_WebApi/AssetManagementSystem_MVC/Views/Books/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harshita.sharma/source/repos/AssetManagementSystem_WebApi/AssetManagementSystem_MVC/Views/Books/ERRORPAGE1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcRVJST1JQQUdFMS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harshita.sharma/source/repos/AssetManagementSystem_WebApi/AssetManagementSystem_MVC/Views/Books/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harshita.sharma/source/repos/AssetManagementSystem_WebApi/AssetManagementSystem_MVC/Views/Hardwares/AddOrEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFyZHdhcmVzXEFkZE9yRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harshita.sharma/source/repos/AssetManagementSystem_WebApi/AssetManagementSystem_MVC/Views/Hardwares/Detailscshtml.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFyZHdhcmVzXERldGFpbHNjc2h0bWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harshita.sharma/source/repos/AssetManagementSystem_WebApi/AssetManagementSystem_MVC/Views/Hardwares/ERRORPAGE2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFyZHdhcmVzXEVSUk9SUEFHRTIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harshita.sharma/source/repos/AssetManagementSystem_WebApi/AssetManagementSystem_MVC/Views/Hardwares/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFyZHdhcmVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harshita.sharma/source/repos/AssetManagementSystem_WebApi/AssetManagementSystem_MVC/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harshita.sharma/source/repos/AssetManagementSystem_WebApi/AssetManagementSystem_MVC/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harshita.sharma/source/repos/AssetManagementSystem_WebApi/AssetManagementSystem_MVC/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harshita.sharma/source/repos/AssetManagementSystem_WebApi/AssetManagementSystem_MVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harshita.sharma/source/repos/AssetManagementSystem_WebApi/AssetManagementSystem_MVC/Views/Softwares/AddOrEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29mdHdhcmVzXEFkZE9yRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harshita.sharma/source/repos/AssetManagementSystem_WebApi/AssetManagementSystem_MVC/Views/Softwares/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29mdHdhcmVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harshita.sharma/source/repos/AssetManagementSystem_WebApi/AssetManagementSystem_MVC/Views/Softwares/ERRORPAGE3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29mdHdhcmVzXEVSUk9SUEFHRTMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harshita.sharma/source/repos/AssetManagementSystem_WebApi/AssetManagementSystem_MVC/Views/Softwares/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29mdHdhcmVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harshita.sharma/source/repos/AssetManagementSystem_WebApi/AssetManagementSystem_MVC/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harshita.sharma/source/repos/AssetManagementSystem_WebApi/AssetManagementSystem_MVC/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/harshita.sharma/source/repos/AssetManagementSystem_WebApi/AssetManagementSystem_MVC/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-zi9wvwwnpe

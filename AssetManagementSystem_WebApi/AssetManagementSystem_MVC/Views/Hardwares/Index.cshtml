@@ -1,0 +1,59 @@
+﻿@model IEnumerable<AssetManagementSystem_WebApi.Models.Hardware>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Hardware</h1>
+<body style="background-color:lightpink;">
+<p style="text-align:right;margin-right:20px;">
+    <a class="btn btn-outline-primary" asp-action="AddOrEdit">Create New</a>
+</p>
+<div class="table-responsive">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Hardware_Type)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Date_of_Publish)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Price)
+                </th>
+                <th></th>
+                <th>Edit Action</th>
+                <th>Details Action</th>
+                <th>Delete Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Hardware_Type)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Date_of_Publish)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td>
+                <td class="text-center">
+                    <a asp-action="AddOrEdit" class="btn btn-outline-primary"  asp-route-Id ="@item.Model_No">Edit</a>
+                </td>
+                <td class="text-center">
+                    <a asp-action="Details" class="btn btn-outline-info"  asp-route-Id="@item.Model_No">Details</a>
+                </td>
+                <td class="text-center">
+                    <a asp-action="Delete" class="btn btn-outline-danger" asp-route-Id ="@item.Model_No">Delete</a>
+                </td>
+            </tr>
+            }
+        </tbody>
+    </table>
+    </div>
+    </body>

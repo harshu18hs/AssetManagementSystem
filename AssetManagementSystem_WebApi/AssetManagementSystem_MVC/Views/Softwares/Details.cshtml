@@ -1,0 +1,34 @@
+﻿@model AssetManagementSystem_WebApi.Models.Software
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container p-3 my-3 border">
+    <h1>Book Details</h1>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.Software_Name)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.Software_Name)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.Software_Author)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.Software_Author)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.Date_Of_Publish)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.Date_Of_Publish)
+        </dd>
+    </dl>
+    <div>
+        <a class="btn btn-primary" asp-action="AddOrEdit" asp-route-employeeId="@Model.Software_Id">Edit</a>
+        <a class="btn btn-danger" asp-action="Index">Back</a>
+    </div>
+</div>

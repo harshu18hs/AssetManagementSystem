@@ -1,0 +1,53 @@
+﻿@model AssetManagementSystem_WebApi.Models.Book
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container">  
+    <h1>CREATE NEW BOOK</h1>  
+    @Html.ValidationSummary()  
+    <form asp-action="AddOrEdit" asp-controller="Books" method="Post">  
+  
+        <div class="Creatediv">  
+            <div class="form-group col-sm-12">  
+                <label asp-for="@Model.Name" class="col-lg-3 control-label"></label>  
+                <br>  
+                <div class="col-lg-9">  
+                    @Html.TextBoxFor(m => m.Name, new { placeholder = "Name", @class = "form-control" })  
+                    @Html.ValidationMessageFor(m => m.Name)  
+                </div>  
+            </div>  
+  
+  
+            <div class="form-group col-sm-12">  
+                <label asp-for="@Model.Author" class="col-lg-3 control-label"></label>  
+                <br>  
+                <div class="col-lg-9">  
+                    @Html.TextBoxFor(m => m.Author, new { placeholder = "Author", @class = "form-control" })  
+                    @Html.ValidationMessageFor(m => m.Author)  
+                </div>
+            </div>  
+            <div class="form-group col-sm-12">  
+                <label asp-for="@Model.Date" class="col-lg-3 control-label"></label>  
+                <br>  
+                <div class="col-lg-9">  
+                    @Html.TextBoxFor(m => m.Date, new { placeholder = "Date", @class = "form-control" })  
+                    @Html.ValidationMessageFor(m => m.Date)  
+                </div>  
+  </div>
+
+  <div class="form-group">  
+                <div class="col-sm-12 btn-submit">  
+                    <button type="submit" class="btn btn-success">Save</button>  
+                    <a class="btn btn-danger" asp-action="Index">Back</a>
+                </div>
+                </div>
+                </div> 
+                </form> 
+            </div> 
+         
+       
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
